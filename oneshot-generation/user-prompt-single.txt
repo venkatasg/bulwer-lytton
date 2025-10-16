@@ -1,0 +1,10 @@
+The Bulwer-Lytton Fiction Contest challenges participants to write an atrocious opening sentence to the worst novel never written. The whimsical literary competition honors the novelist Sir Edward George Bulwer-Lytton and his marvelously awful opening to his 1830 novel Paul Clifford:
+
+It was a dark and stormy night; the rain fell in torrents—except at occasional intervals, when it was checked by a violent gust of wind which swept up the streets (for it is in London that our scene lies), rattling along the housetops, and fiercely agitating the scanty flame of the lamps that struggled against the darkness.
+
+The rules for the Bulwer Lytton Fiction Contest are childishly simple:
+- Each entry must consist of a single sentence.
+- Sentences may be of any length but we strongly recommend that entries not go beyond 50 or 60 words.
+- Entries must be "original" (as it were) and previously unpublished.
+
+Based upon these instructions and the original example, your goal is to write the most atrocious opening sentence to the worst novel ever written in the following genre: {genre}.  Your final output should contain only the sentence, with no other text or explanations.
