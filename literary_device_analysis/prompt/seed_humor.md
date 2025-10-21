@@ -1,0 +1,1 @@
+[1] Onomatopoeia: The use of language whose sound imitates that which it names.

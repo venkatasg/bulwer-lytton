@@ -1,0 +1,39 @@
+You will receive a document and a set of top-level features from a feature hierarchy. Your task is to identify generalizable features within the document that can act as top-level features in the hierarchy. If any relevant features are missing from the provided set, please add them. Otherwise, output the existing top-level features as identified in the document.
+
+[Top-level features]
+{Topics}
+
+[Examples]
+Example 1: Adding "[1] Satire"
+Document:
+FCC To Fine Americans Who Don't Keep Up With TV Shows
+
+Your response:
+[1] Satire: A literary device of writing or art which principally ridicules its subject often as an intended means of provoking or preventing change or highlighting a shortcoming in the work of another. Imitation, humor, irony, and exaggeration are often used to aid this.
+
+Example 2: Duplicate "[1] Wordy", returning the existing feature
+Document:
+Her Dear John missive flapped unambiguously in the windy breeze, hanging like a pizza menu on the doorknob of my mind.
+
+Your response:
+[1] Wordy: Includes superfluous words, especially adjectives, that do not change the meaning of the sentence.
+
+[Instructions]
+Step 1: Determine features included in the document.
+- The feature labels must be as GENERALIZABLE as possible. They must not be document-specific.
+- The features must reflect a SINGLE feature instead of a combination of features.
+- The new features must have a level number, a short general label, and a feature description.
+- The features must be broad enough to accommodate future subfeatures.
+Step 2: Perform ONE of the following operations:
+1. If there are already duplicates or relevant features in the hierarchy, output those features and stop here.
+2. If the document contains no features, return "None".
+3. Otherwise, add your feature as a top-level feature. Stop here and output the added feature(s). DO NOT add any additional levels.
+
+
+[Document]
+{Document}
+
+Please ONLY return the relevant or modified features at the top level in the hierarchy. Your response should be in the following format:
+[Feature Level] Feature Label: Feature Description
+
+Your response:

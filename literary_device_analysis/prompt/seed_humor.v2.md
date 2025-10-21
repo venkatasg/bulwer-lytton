@@ -1,0 +1,1 @@
+[1] Wordy: Includes superfluous words, especially adjectives, that do not change the meaning of the sentence

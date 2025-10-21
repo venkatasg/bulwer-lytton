@@ -1,0 +1,29 @@
+You will receive a list of features that belong to the same level of a feature hierarchy. Your task is to merge features that are paraphrases or near duplicates of one another. Return "None" if no modification is needed.
+
+Here are some examples:
+[Example 1]
+Feature List:
+<pairs of similar features>
+
+Your response:
+<features being merged into an existing feature>
+
+[Example 2]
+<pairs of similar features>
+
+Your response:
+<features being merged into a new feature>
+
+[Rules]
+- Each line represents a feature, with a level indicator and a feature label.
+- Perform the following operations as many times as needed:
+    - Merge relevant features into a single feature.
+    - Do nothing and return "None" if no modification is needed.
+- When merging, the output format should contain a level indicator, the updated label and description, followed by the original features.
+
+
+[Feature List]
+{Topics}
+
+Output the modification or "None" where appropriate. Do not output anything else.
+[Your response]
