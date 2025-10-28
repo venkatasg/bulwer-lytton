@@ -1,6 +1,6 @@
 ## Overview
 
-This repository contains the complete implementation, data, and analysis for "*Dark & Stormy*: Modeling Humor in the Worst Sentences Ever Written", a research paper that investigates how *intentionally bad* textual humor differs from standard humor datasets. The paper curates and analyzes a novel corpus of 1,778 sentences from the **[Bulwer-Lytton Fiction Contest](https://www.bulwer-lytton.com) (BLFC)** (winners and highlighted entries from 1996-2024), compares them with LLM-generated sentences, and examines the linguistic features that distinguish this unique form of humor.
+This repository contains all code, data, and analysis used in writing "*Dark & Stormy*: Modeling Humor in the Worst Sentences Ever Written", a research paper that investigates how *intentionally bad* textual humor differs from standard humor datasets. The paper curates and analyzes a novel corpus of 1,778 sentences from the **[Bulwer-Lytton Fiction Contest](https://www.bulwer-lytton.com) (BLFC)** (winners and highlighted entries from 1996-2024), compares them with LLM-generated sentences, and examines the linguistic features that distinguish this unique form of humor.
 
 ## Key Findings
 
