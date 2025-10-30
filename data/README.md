@@ -11,3 +11,12 @@ Sentences in the dataset are copied directly from the BLFC archive, except for t
 - All single and double quotes were converted to **straight** single and double quotes.
 - All 3 dot ellipses were converted to the ellipsis unicode character &hellip; (codepoint: U+2026)
 - In 2017, the sentence "As he lay dying on the smoke-wreathed battlefield..." was listed under both *Adventure* and *Historical Fiction*. We listed the category as only *Adventure*.
+
+**Note**: When loading `Bulwer-Lytton.tsv` with pandas, set the `quoting` parameter to `csv.QUOTE_NONE`. This ensures that python loads the text as is without inserting any quote characters that weren't present initially in the original sentence.
+
+```
+import pandas
+import csv
+
+df = pd.read_csv('Bulwer-Lytton.tsv', sep='\t', quoting=csv.QUOTE_NONE)
+```
