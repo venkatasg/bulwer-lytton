@@ -4,6 +4,8 @@
 
 The remaining `txt` files are synthetic BL sentences generated using the scripts and settings listed in the `oneshot-generation` folder in this repository from 4 different LLMs - `DeepSeek-V3.1`, `gpt-5-2025-08-07`, `gpt-4.1-2025-04-14` and `gpt-oss-120b`.
 
+The dataset is available on Huggingface: [venkatasg/bulwer-lytton](https://huggingface.co/datasets/venkatasg/bulwer-lytton).
+
 ## List of changes to Raw Bulwer Lytton sentence data
 
 Sentences in the dataset are copied directly from the BLFC archive, except for the following changes:
