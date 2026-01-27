@@ -2,6 +2,8 @@
 
 This repository contains all code, data, and analysis used in "[*Dark & Stormy*: Modeling Humor in the Worst Sentences Ever Written](https://arxiv.org/abs/2510.24538)", a research paper that investigates how *intentionally bad* textual humor differs from standard humor datasets. The paper curates and analyzes a novel corpus of 1,778 sentences from the **[Bulwer-Lytton Fiction Contest](https://www.bulwer-lytton.com) (BLFC)** (entries from 1996-2024), compares them with LLM-generated sentences, and examines the linguistic features that distinguish this unique form of humor.
 
+The dataset is available on Huggingface: [venkatasg/bulwer-lytton](https://huggingface.co/datasets/venkatasg/bulwer-lytton).
+
 ## Key Findings
 
 - **Humor Detection Failure**: Standard RoBERTa-based humor detection models perform poorly on BLFC sentences, with humor scores comparable to non-humorous novel opening sentences.
