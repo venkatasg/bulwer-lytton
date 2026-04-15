@@ -20,14 +20,14 @@ bulwer-lytton/
 ├── README.md                              # This file
 ├── LICENSE                                # MIT License
 ├── data/                                  # Data files
-│   ├── Bulwer-Lytton.tsv                  # 1,778 human-written BLFC entries 
+│   ├── Bulwer-Lytton.tsv                  # 1,778 human-written BLFC entries
 │   ├── *_LLM_*.txt                        # Synthetic sentences from various LLMs
 │   └── README.md                          # Dataset documentation
 ├── humor_detection/                       # Humor detection model experiments
 ├── literary_device_analysis/              # Literary device extraction & analysis
 ├── oneshot-generation/                    # LLM sentence generation
 ├── adjective-noun/                        # Adjective-noun analysis
-└── Surprisal.ipynb                        # Token surprisal analysis
+└── surprisal/                        # Token surprisal analysis
 ```
 
 ## Paper Reference
@@ -35,13 +35,13 @@ bulwer-lytton/
 **Citation:**
 ```
 @misc{govindarajan2025darkstormymodeling,
-      title={Dark & Stormy: Modeling Humor in the Worst Sentences Ever Written}, 
+      title={Dark & Stormy: Modeling Humor in the Worst Sentences Ever Written},
       author={Venkata S Govindarajan and Laura Biester},
       year={2025},
       eprint={2510.24538},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2510.24538}, 
+      url={https://arxiv.org/abs/2510.24538},
 }
 ```
 
