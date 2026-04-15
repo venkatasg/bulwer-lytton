@@ -19,6 +19,7 @@ bulwer-lytton/
 ├── Bulwer_Lytton.pdf                      # The research paper
 ├── README.md                              # This file
 ├── LICENSE                                # MIT License
+├── paper.pdf                              # PDF of paper
 ├── data/                                  # Data files
 │   ├── Bulwer-Lytton.tsv                  # 1,778 human-written BLFC entries
 │   ├── *_LLM_*.txt                        # Synthetic sentences from various LLMs
@@ -27,7 +28,7 @@ bulwer-lytton/
 ├── literary_device_analysis/              # Literary device extraction & analysis
 ├── oneshot-generation/                    # LLM sentence generation
 ├── adjective-noun/                        # Adjective-noun analysis
-└── surprisal/                        # Token surprisal analysis
+└── surprisal/                             # Token surprisal analysis
 ```
 
 ## Paper Reference
