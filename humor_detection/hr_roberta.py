@@ -6,6 +6,7 @@ Humor detection models from:
     In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing
     (pp. 13701-13715).
 """
+
 from typing import List
 
 from transformers import (
@@ -29,8 +30,9 @@ class HumorResearchRobertaDetector(HumorDetector):
     """
 
     def __init__(self, hf_model: str):
-        assert (
-            any(hf_model.startswith(supported_model) for supported_model in SUPPORTED_HF_MODELS)
+        assert any(
+            hf_model.startswith(supported_model)
+            for supported_model in SUPPORTED_HF_MODELS
         ), f"Must choose from supported models {SUPPORTED_HF_MODELS}"
         self.hf_model = hf_model
         self.model = f"Humor-Research/{hf_model}"

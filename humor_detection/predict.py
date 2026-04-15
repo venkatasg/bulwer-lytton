@@ -1,6 +1,7 @@
 """
 Save humor predictions to use later
 """
+
 import argparse
 
 from hr_roberta import HumorResearchRobertaDetector
